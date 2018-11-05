@@ -1,8 +1,6 @@
-//const s = [2, 2, 1, 3, 2];
-//const d = 4;
-//const m = 2;
-
-
+const s = [2, 2, 1, 3, 2];
+const d = 4;
+const m = 2;
 
 let birthday = (s, d, m) => {
     let answer = 0;
@@ -17,3 +15,5 @@ let birthday = (s, d, m) => {
     }
     return (answer);
 }
+
+birthday(s, d, m);
